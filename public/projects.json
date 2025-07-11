@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "name": "Car Rental System",
+    "image": [
+      "https://i.postimg.cc/fR7GqPFx/car-rental.png",
+      "https://i.postimg.cc/0jJ3YXDK/car-rntal-2.png",
+
+      "https://i.postimg.cc/pTS4nMht/car-rntal-3.png"
+    ],
+
+    "tech": [
+      "HTML",
+      "Tailwindcss",
+      "React Js",
+      "Daisyui",
+      "Express js",
+      "Node",
+      "MongoDB",
+      "Mongoose"
+    ],
+    "description": "A full-featured car rental platform where users can register, log in, add their own cars for rent, manage bookings, and explore available vehicles with powerful filtering and sorting options.",
+    "feature": [
+      "Car Management: Add, update, delete, and date modify your listed cars.",
+      "Switch between grid and list views for car listings.",
+      "  Car Booking:  Users can book cars, update booking dates, or cancel.",
+      " Real-time data view using Recharts.",
+      "Car Booking: Users can book cars, update booking dates, or cancel.",
+      "Search cars, sort by price (low-high / high-low)",
+      "Switch between grid and list views for car listings.",
+      " Private routes for dashboard sections like Add Car, My Car, My Booking.",
+      "Mobile, tablet, and desktop-friendly layout.",
+      " Framer Motion Animation: Smooth page transitions and animations.",
+      "Swiper Slider Integration: Interactive image sliders for featured cars.",
+      "Friendly custom 404 not found page.",
+      "Clean, Consistent Code Structure"
+    ],
+    "livesite": "https://car-ride.netlify.app/",
+    "clientRepo": "https://github.com/mdsamiulislam54/Car-Rental-System--Client",
+    "serverRepo": "https://github.com/mdsamiulislam54/Car-Rental-System-Server"
+  },
+
+  {
+    "id": 2,
+    "name": "Foodie's Hub",
+    "image": [
+      "https://i.postimg.cc/15BTpFNH/f.png",
+
+      "https://i.postimg.cc/J4MvDxt0/f2.png",
+      "https://i.postimg.cc/v8WCZkYC/f3.png"
+    ],
+    "tech": [
+      "HTML",
+      "Tailwindcss",
+      "Rechart",
+      "React Js",
+      "Daisyui",
+      "Express js",
+      "Node",
+      "MongoDB",
+      "Mongoose"
+    ],
+    "description": "Foodie Hub is a full-stack recipe management and sharing platform where users can add, update, delete, and browse recipes. It features a dynamic dashboard with real-time data visualizations via Recharts, user-specific recipe management, and secure authentication using Firebase.",
+    "feature": [
+      "Create / Read / Update / Delete (CRUD) for recipes",
+      "Dynamic Dashboard with real-time analytics",
+      "Browse all recipes with server-side pagination",
+      "Smooth UI Animations (Framer Motion)",
+      "User Authentication (Firebase)",
+      "Browse all recipes with server-side pagination",
+      "Add New Recipe from the dashboard with form validation",
+      "SweetAlert2 for confirmation dialogs and alerts",
+      " Server-side Pagination, Filtering, Sorting (MongoDB",
+      " Smooth UI Animations (Framer Motion)",
+      " Protected Private Routes (React Router)"
+    ],
+    "livesite": "https://foods-hub-11.netlify.app/",
+    "clientRepo": "https://github.com/mdsamiulislam54/Foodie-s-Hub-Client",
+    "serverRepo": "https://github.com/mdsamiulislam54/Foodie-s-Hub-Server"
+  },
+  {
+    "id": 3,
+    "name": "DailyMart",
+    "image": [
+      "https://i.postimg.cc/dtfRPtMF/m1.png",
+      "https://i.postimg.cc/6pGr9Jwv/m2.png",
+
+      "https://i.postimg.cc/Yq0NsLs8/m3.png"
+    ],
+    "tech": [
+      "HTML",
+      "Tailwindcss",
+      "Swiper Slider",
+      "React Js",
+      "Express js",
+      "Node",
+      "MongoDB",
+      "Mongoose",
+      "SSLCommerz "
+    ],
+    "description": "DailyMart is a complete e-commerce solution where users can register, login, browse products, add items to cart or wishlist, and securely make payments. It features a dynamic user dashboard and modern UI/UX.",
+    "feature": [
+      "Product Browsing & Search",
+      "Shopping Cart & Checkout",
+      "Responsive Design",
+      "Smooth Animations & User Experience",
+      " Payment Gateway Integration",
+      "Wishlist management",
+      "Checkout with secure online payment",
+      "Add to cart",
+      "Entire app state managed using React Redux Toolkit",
+      "Framer Motion for smooth animations",
+      "SweetAlert2 for elegant alerts",
+      "SSLCommerz-lts for secure online transactions",
+      "Mobile, tablet, and desktop friendly"
+     
+    ],
+
+    "livesite": "https://dailymartstore-59c72b-s-dev.netlify.app/",
+    "clientRepo": "https://github.com/mdsamiulislam54/Full-Stack-E-Commerce-Project",
+    "serverRepo": "https://github.com/mdsamiulislam54/server-side"
+  }
+]
