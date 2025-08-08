@@ -84,7 +84,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
       <aside className="hidden md:block w-64 bg-gray-800 text-white   p-4 border-r dark:border-gray-600 border-gray-600 fixed z-100 h-full">
         <div className="mt-8 mb-10">
           <img
-            src="https://i.postimg.cc/HLs1mNSB/md-shamiul-islam-cv-photo.png"
+            src="https://i.postimg.cc/j5PtVqJJ/photo-2025-06-28-12-32-12-removebg-preview.png"
             alt="profile"
             className="w-40 h-40 rounded-full object-cover mx-auto"
           />
