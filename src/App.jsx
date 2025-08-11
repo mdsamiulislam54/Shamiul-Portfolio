@@ -12,6 +12,7 @@ import Education from "./Page/Education/Education";
 
 import HomeLayout from "./Layout/HomeLayout";
 import Skills from "./Page/Skills/Skills";
+import MyCourses from "./Page/MyCourses/MyCourses";
 
 const router = createBrowserRouter([
   {
@@ -58,6 +59,10 @@ const router = createBrowserRouter([
       {
         path:'/skills',
         Component:Skills
+      },
+      {
+        path:'/course',
+        Component:MyCourses
       }
     ],
   },

@@ -11,8 +11,10 @@ import {
   FaTools,
   FaLinkedin,
   FaGithub,
+  FaUserGraduate 
 } from "react-icons/fa";
 import { IoLogoDiscord } from "react-icons/io5";
+import { FaGraduationCap } from "react-icons/fa6";
 
 const Sidebar = ({ isOpen, setIsOpen }) => {
   const sidebarVariants = {
@@ -26,7 +28,9 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
 
     // { to: "/service", label: "Services", icon: <FaServicestack /> },
     { to: "/projects", label: "Projects", icon: <FaProjectDiagram /> },
-    { to: "/education", label: "Education/Course", icon: <FaFileAlt /> },
+    { to: "/education", label: "Education", icon: <FaUserGraduate /> },
+    { to: "/course", label: "Course", icon: <FaGraduationCap /> },
+    
     { to: "/skills", label: "Skills", icon: <FaTools /> },
     { to: "/contact", label: "Contact", icon: <FaPhone /> },
   ];

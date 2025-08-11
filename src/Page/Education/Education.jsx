@@ -14,6 +14,9 @@ const Education = () => {
       description:
         "Focused on web development, data structures, software engineering fundamentals, and academic projects. Completed an industrial attachment on professional web design.",
     },
+
+  ];
+  const course = [
     {
       title: "Frontend Development with React",
       institute: "Creative IT Institute",
@@ -34,8 +37,7 @@ const Education = () => {
       description:
         "Learning modern full-stack web development including React, Node.js, Express, and MongoDB. Building real-world projects and participating in coding challenges.",
     },
-  ];
-
+  ]
   return (
     <motion.div
       initial={{ x: -600, opacity: 0 }}
@@ -54,7 +56,7 @@ const Education = () => {
       </div>
 
       {/* Education Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 ">
         {education.map((item, index) => (
           <div
             key={index}
@@ -75,11 +77,10 @@ const Education = () => {
             <p className="text-gray-700 dark:text-gray-300 mb-1">
               <strong>Status:</strong>{" "}
               <span
-                className={`font-semibold ${
-                  item.status === "Completed"
+                className={`font-semibold ${item.status === "Completed"
                     ? "text-green-600 dark:text-green-400"
                     : "text-red-500 dark:text-red-800"
-                }`}
+                  }`}
               >
                 {item.status}
               </span>
