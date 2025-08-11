@@ -18,21 +18,20 @@ const Home = () => {
     >
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="text-center dark:text-white p-6 rounded-lg  lg:w-8/12">
-          <p className="mb-4 text-xl font-medium text-rose-500">Welcome</p>
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Md. Shamiul Islam
+        
+          <h1 className="text-4xl md:text-6xl font-bold track mb-4">
+            MD SHAMIUL ISLAM
           </h1>
           <div className="text-center mb-3 flex justify-center gap-4">
             <TypeAnimation
               sequence={[
-                "Junior Frontend Developer",
+                " Frontend Web Developer",
                 2000,
-                "Junior React Developer",
+                " Full Stack Web Developer",
                 2000,
-                " Junior Full Stack Developer",
+                "Web Developer",
                 2000,
-                "JavaScript Lover",
-                2000,
+                
               ]}
               wrapper="h2"
               cursor={true}
@@ -40,19 +39,17 @@ const Home = () => {
               className="text-2xl md:text-3xl font-semibold mb-3"
             />
           </div>
-          <p className="text-base md:text-lg mb-6">
-            I’m a Full Stack Developer, experienced in React, Node.js,
-            Express.js, MongoDB, and Tailwind CSS. I love creating fast, modern,
-            and responsive websites with dynamic features and clean UI/UX.{" "}
+          <p className="text-base md:text-sm tracking-wide mb-6">
+           I’m Md. Shamiul Islam, and I enjoy making websites that work well and look nice. Every project I work on teaches me something new, and I use that in my next work.
           </p>
 
           
 
           <Link
             to="/contact"
-            className="inline-block px-6 py-3 rounded-lg  border  border-red-800 dark:text-white hover:text-white font-semibold shadow hover:bg-red-800 hover:to-red-800 transition duration-300"
+            className="inline-block px-6 py-3 rounded-lg text-white  hover:text-white font-semibold shadow bg-blue-800 hover:to-red-600 transition duration-300"
           >
-            Hire Me
+            Download Resume
           </Link>
         </div>
       </div>
