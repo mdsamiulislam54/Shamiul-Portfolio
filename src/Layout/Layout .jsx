@@ -6,6 +6,7 @@ import { darkModeToggle } from "../Hook/DarkModeToggle/DarkModeToogle";
 import { LuSunMoon } from "react-icons/lu";
 import { MdDarkMode } from "react-icons/md";
 import { IoMdClose } from "react-icons/io";
+import AnimatedHamburgerButton from "../Components/AnimatedButton/AnimatedHamburgerButton";
 
 
 const Layout = () => {
@@ -16,20 +17,24 @@ const Layout = () => {
 
       <main className="flex-1 dark:bg-gray-800 dark:text-black lg:ml-64 ">
         {/* Toggle button for mobile */}
-        <div className="fixed top-0 py-2 px-4 right-0 max-md:w-full max-md:dark:bg-gray-700 max-md:bg-gray-100 z-50 text-3xl text-gray-800 flex justify-end items-end gap-2">
-          <button onClick={() => setIsOpen(!isOpen)} className="md:hidden ">
-            {
-              isOpen ?  <IoMdClose className="dark:text-white text-black"  /> :<HiMenuAlt1 className="dark:text-white text-black" />
-            }
-            
-           
-          </button>
-          <button
+        <div className="fixed top-0 py-3 px-4 right-0 max-lg:w-full max-lg:dark:bg-gray-700 max-lg:bg-gray-100 z-50 text-3xl text-gray-800 flex justify-end items-center gap-2">
+           <button
             onClick={darkModeToggle}
-            className="rounded-full dark:text-white  text-black   cursor-pointer text-3xl"
+            className="rounded-full dark:text-white  text-black   cursor-pointer "
           >
-          <MdDarkMode />
+            <MdDarkMode size={40} />
           </button>
+          <button onClick={() => setIsOpen(!isOpen)} className="lg:hidden cursor-pointer ">
+            {/* {
+              isOpen ? <IoMdClose className="dark:text-white text-black" /> : <HiMenuAlt1 className="dark:text-white text-black" />
+            } */}
+            <AnimatedHamburgerButton />
+
+          </button>
+
+
+
+         
         </div>
 
         <Outlet />

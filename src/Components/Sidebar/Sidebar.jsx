@@ -39,11 +39,11 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
         initial="closed"
         animate={isOpen ? "open" : "closed"}
         transition={{ type: "spring", stiffness: 300, damping: 30 }}
-        className="fixed z-100 w-52 bg-gray-800 text-white shadow h-full md:hidden"
+        className="fixed z-100 w-56 dark:bg-gray-800 bg-white dark:text-white p-2 shadow h-full lg:hidden"
       >
         <div className="mt-8 mb-5">
           <img
-            src="https://i.postimg.cc/HLs1mNSB/md-shamiul-islam-cv-photo.png"
+            src="https://i.postimg.cc/j5PtVqJJ/photo-2025-06-28-12-32-12-removebg-preview.png"
             alt="profile"
             className="w-20 h-20 rounded-full object-cover mx-auto"
           />
@@ -58,6 +58,9 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
             <Link to="https://github.com/mdsamiulislam54" target="_blank">
               <FaSquareGithub />
             </Link>
+             <Link to="https://github.com/mdsamiulislam54" target="_blank">
+              <IoLogoDiscord/>
+            </Link>
           </div>
         </div>
         
@@ -69,9 +72,9 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
               to={item.to}
               onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
-                isActive
-                  ? "flex items-center gap-3 bg-gray-700 p-2 rounded text-white"
-                  : "flex items-center gap-3 p-2 hover:bg-gray-700 hover:text-white rounded"
+                 isActive
+                  ? "flex items-center gap-3 bg-gray-100 dark:bg-gray-600 p-2 rounded  "
+                  : "flex items-center gap-3 p-2 hover:bg-gray-100 dark:hover:bg-gray-600 rounded"
               }
             >
               <span> {item.icon}</span>
@@ -82,7 +85,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
       </motion.aside>
 
       {/* Desktop Sidebar */}
-      <aside className="hidden md:block w-64 dark:bg-gray-800 bg-white dark:text-white   p-4 border-r dark:border-gray-600 border-gray-200 fixed z-100 h-full">
+      <aside className="hidden lg:block w-64 dark:bg-gray-800 bg-white dark:text-white   p-4 border-r dark:border-gray-600 border-gray-200 fixed z-100 h-full">
         <div className="mt-4 mb-5">
           <img
             src="https://i.postimg.cc/j5PtVqJJ/photo-2025-06-28-12-32-12-removebg-preview.png"

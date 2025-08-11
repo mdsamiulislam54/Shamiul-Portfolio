@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 const About = () => {
   return (
-    <motion.div className="py-20 px-10  transition-all duration-300 relative">
+    <motion.div className="py-10 px-10  transition-all duration-300 relative">
       <motion.div
         initial={{ x: -600, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
@@ -14,93 +14,44 @@ const About = () => {
           <p className="md:text-[100px] text-[70px] text-gray-200 tracking-widest dark:text-gray-700">
             ABOUT US
           </p>
-          <h2 className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] inline-block border-b-2 pb-3 border-red-800">
-            Get to Know <span className="text-red-800">Me</span>
+          <h2 className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] inline-block border-b-2 pb-3 border-blue-800">
+            Get to Know <span className="text-blue-600">Me</span>
           </h2>
         </div>
 
-        <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed mb-8">
-          Hello! I’m a passionate{" "}
-          <span className="font-semibold ">Full Stack Web Developer</span> from
-          the CSE department of Shariatpur Polytechnic Institute. My journey
-          began in 2022 when a teacher introduced us to HTML and CSS. The moment
-          I saw my first web page live in a browser — that excitement pulled me
-          towards web development.
+        <p className="text-gray-700 dark:text-gray-300 text-md leading-relaxed mb-4 max-lg:text-center text-capitalize">
+          Hello! I’m Md. Shamiul Islam, a Full Stack Web Developer from the CSE department of Shariatpur Polytechnic Institute. My journey started back in 2022 when a teacher first showed me HTML and CSS. Seeing my very first webpage live on the browser was exciting — that moment made me realize I wanted to build more on the web.
         </p>
 
-        <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed mb-8">
-          Initially confused between web and software development, I chose the
-          web. From 2022 to 2024, I studied through self-learning while managing
-          my diploma. In my 7th semester, I moved to Dhaka for a{" "}
-          <span className="font-semibold ">
-            3-month React Developer training
-          </span>{" "}
-          at Creative IT Institute, and later joined the{" "}
-          <span className="font-semibold ">
-            Programming Hero Web Development course
-          </span>{" "}
-          in January 2025. I officially completed my Diploma in Computer Science
-          in the same month.
+        <p className="text-gray-700 dark:text-gray-300 text-md leading-relaxed mb-4 max-lg:text-center">
+          At first, I was a bit confused about whether to focus on software or web development, but I chose the web and stuck with it. Between 2023 and 2024, I learned mostly by myself while finishing my diploma. During my 7th semester, I moved to Dhaka for a 3-month React Developer training at Creative IT Institute. I completed my Diploma in Computer Science in December 2024, and then in July 2025, I finished the Programming Hero Web Development course.
         </p>
 
-        <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed mb-8">
-          Interestingly, I entered this field hoping for quick income — but over
-          time, that desire transformed into genuine passion. I love{" "}
-          <span className="font-semibold ">
-            coding, debugging, and exploring new technologies
-          </span>
-          . Beyond coding, I enjoy playing cricket and staying tech-updated. I’m
-          a little introverted, prefer meaningful conversations, and currently
-          work as a <span className="font-semibold ">Junior Developer</span>{" "}
-          managing both frontend and backend technologies.
+        <p className="text-gray-700 dark:text-gray-300 text-md leading-relaxed mb-8 max-lg:text-center">
+          At first, I entered this field looking for opportunities to grow, and over time, my interest turned into a true passion for coding and problem-solving. I love writing code, solving problems, and exploring new tech. When I’m not coding, I like playing cricket and keeping myself updated with tech trends. I’m a bit introverted and prefer meaningful conversations. Currently, I work as a Web Developer, handling both frontend and backend tasks with dedication.
         </p>
 
-        {/* Personal Details */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10 text-gray-700 dark:text-gray-300">
-          <div className="bg-white dark:bg-gray-800 p-5 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
-            <h3 className="text-xl font-bold text-red-800 mb-3">
-              Personal Details
-            </h3>
-            <ul className="space-y-2">
-              <li>
-                <strong>Name:</strong> Md. Samiul Islam
-              </li>
-              <li>
-                <strong>From:</strong> Rangpur, Bangladesh
-              </li>
-              <li>
-                <strong>Education:</strong> Diploma in Computer Science
-                (2020-2024)
-              </li>
-              <li>
-                <strong>Current Course:</strong> Programming Hero Web Dev (2025
-                Running)
-              </li>
-            </ul>
-          </div>
 
-          <div className="bg-white dark:bg-gray-800 p-5 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
-            <h3 className="text-xl font-bold text-red-800 mb-3">
-              Hobbies & Traits
-            </h3>
-            <ul className="space-y-2">
-              <li>🏏 Playing Cricket</li>
-              <li>💻 Learning New Technologies</li>
-              <li>📝 Exploring new frameworks & APIs</li>
-              <li>🤫 Quiet, Introvert, loves meaningful topics</li>
-            </ul>
-          </div>
-        </div>
 
         {/* Resume Button */}
         <div className="flex justify-center">
           <Link
-            to="https://drive.google.com/file/d/1oZJBaygor9Thk6oGJLJ6NvuSUAjax-qQ/view?usp=drive_link"
-            target="_blank"
-            className="inline-block px-6 py-3 rounded-lg border border-red-800 font-semibold shadow hover:bg-red-800 dark:text-white hover:text-white transition duration-300"
+            to="/contact"
+
+           className="
+    relative inline-block px-6 py-3 rounded-lg font-semibold text-white overflow-hidden
+    bg-blue-800 hover:text-white shadow transition duration-500
+    before:absolute before:top-0 before:left-0 before:h-full before:w-0 before:bg-blue-900 before:transition-all before:duration-300 before:z-0
+    after:absolute after:top-0 after:right-0 after:h-full after:w-0 after:bg-blue-900 after:transition-all after:duration-300 after:z-0
+    hover:before:w-[51%] hover:after:w-[51%]
+  "
           >
-            Download Resume
+          <span className="relative z-10">  Contact Me</span>
           </Link>
+
+
+
+
         </div>
       </motion.div>
     </motion.div>
