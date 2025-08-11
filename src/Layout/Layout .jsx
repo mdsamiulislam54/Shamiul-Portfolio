@@ -15,7 +15,7 @@ const Layout = () => {
     <div className="flex min-h-screen relative ">
       <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} />
 
-      <main className="flex-1 dark:bg-gray-800 dark:text-black lg:ml-64 ">
+      <main className="flex-1 dark:bg-gray-800 dark:text-white lg:ml-64 ">
         {/* Toggle button for mobile */}
         <div className="fixed top-0 py-3 px-4 right-0 max-lg:w-full max-lg:dark:bg-gray-700 max-lg:bg-gray-100 z-50 text-3xl text-gray-800 flex justify-end items-center gap-2">
            <button

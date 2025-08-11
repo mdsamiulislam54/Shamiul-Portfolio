@@ -9,8 +9,9 @@ import Service from "./Page/Service/Service";
 import Projects from "./Page/Projects/Projects";
 import Details from "./Page/Details/Details";
 import Education from "./Page/Education/Education";
-import Skills from "./Page/Skills/Skills";
+
 import HomeLayout from "./Layout/HomeLayout";
+import Skills from "./Page/Skills/Skills";
 
 const router = createBrowserRouter([
   {

@@ -24,7 +24,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
     { to: "/", label: "Home", icon: <FaHome /> },
     { to: "/about", label: "About", icon: <FaUserAlt /> },
 
-    { to: "/service", label: "Services", icon: <FaServicestack /> },
+    // { to: "/service", label: "Services", icon: <FaServicestack /> },
     { to: "/projects", label: "Projects", icon: <FaProjectDiagram /> },
     { to: "/education", label: "Education/Course", icon: <FaFileAlt /> },
     { to: "/skills", label: "Skills", icon: <FaTools /> },
