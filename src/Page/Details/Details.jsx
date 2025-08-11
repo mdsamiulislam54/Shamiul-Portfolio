@@ -30,14 +30,14 @@ const Details = () => {
 
       {/* Images */}
       <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mb-8">
-        {data.image.map((img, index) => (
+      
           <img
-            key={index}
-            src={img}
+            
+            src={data.image}
             alt={`Project ${data.name}`}
             className="w-[200px] h-[200px] object-contain rounded-xl shadow"
           />
-        ))}
+        
       </div>
 
       {/* Technologies */}

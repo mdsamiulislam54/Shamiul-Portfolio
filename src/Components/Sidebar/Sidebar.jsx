@@ -25,13 +25,13 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
   const navItems = [
     { to: "/", label: "Home", icon: <FaHome /> },
     { to: "/about", label: "About", icon: <FaUserAlt /> },
-
+ { to: "/skills", label: "Skills", icon: <FaTools /> },
     // { to: "/service", label: "Services", icon: <FaServicestack /> },
     { to: "/projects", label: "Projects", icon: <FaProjectDiagram /> },
     { to: "/education", label: "Education", icon: <FaUserGraduate /> },
     { to: "/course", label: "Course", icon: <FaGraduationCap /> },
     
-    { to: "/skills", label: "Skills", icon: <FaTools /> },
+   
     { to: "/contact", label: "Contact", icon: <FaPhone /> },
   ];
 
